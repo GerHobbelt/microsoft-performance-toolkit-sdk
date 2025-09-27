@@ -35,9 +35,9 @@ namespace Microsoft.Performance.Testing
         public static void IsInstanceOfType<T>(
             object obj, 
             string message, 
-            params object[] paramters)
+            params object[] parameters)
         {
-            Assert.IsInstanceOfType(obj, typeof(T), message, paramters);
+            Assert.IsInstanceOfType(obj, typeof(T), message, parameters);
         }
     }
 }
